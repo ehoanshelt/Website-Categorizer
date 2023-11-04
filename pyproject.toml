@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "website-categorizer"
+version = "0.1.0"
+description = "NLP project for categorziing websits using Google API"
+authors = ["Eric Hoanshelt <ehoanshelt@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.13"
+pandas = "^2.1.2"
+nltk = "^3.8.1"
+bs4 = "^0.0.1"
+cloudscraper = "^1.2.71"
+google-cloud = "^0.34.0"
+google-cloud-language = "^2.11.1"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
